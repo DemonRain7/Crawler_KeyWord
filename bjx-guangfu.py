@@ -21,7 +21,7 @@ driver = webdriver.Chrome(options=chrome_options)
 base_url = "https://guangfu.bjx.com.cn/search/"
 
 # 要搜索的关键词列表
-keywords = ["光伏", "太阳能", "新能源"]  # 您可以根据实际需求添加更多关键词
+keywords = ["转换效率", "峰值功率", "系统设计寿命"]  # 您可以根据实际需求添加更多关键词
 
 # 遍历关键词列表
 for keyword in keywords:
